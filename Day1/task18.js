@@ -1,0 +1,2 @@
+var mixesbag = ['x', 5 , true , null , undefined , [] , {x:5,y:6}]
+console.log(typeof mixesbag[0] ,typeof mixesbag[1] ,typeof mixesbag[2] ,typeof mixesbag[3] ,typeof mixesbag[4] ,typeof mixesbag[5] ,typeof mixesbag[6] )

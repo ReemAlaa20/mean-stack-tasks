@@ -1,0 +1,5 @@
+let name = window.prompt('hotel name ')
+let num = prompt('number of nights')
+let c = confirm('confirmed or no ')
+alert( ` hotel : ${name} , night:${num} , confirmed : ${c}` )
+console.log(` hotel : ${name} , night:${num} , confirmed : ${c}`)

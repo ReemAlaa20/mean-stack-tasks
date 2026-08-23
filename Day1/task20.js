@@ -1,0 +1,7 @@
+var num1 =prompt('number 1')
+var num2 =prompt('number 2')
+console.log(`${num1} + ${num2} = ${+num1 + +num2}`)
+console.log(`${num1} - ${num2} = ${+num1 - +num2}`)
+console.log(`${num1} * ${num2} = ${+num1 * +num2}`)
+console.log(`${num1} / ${num2} = ${+num1 / +num2}`)
+console.log(`${num1} % ${num2} = ${+num1 % +num2}`)
