@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mini store</title>
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Nti Mini Store</h1>
+    <form action="" id="formadd">
+        <label for="name" >Name : 
+            <input type="text" id="nameproduct"><br><br>
+        </label>
+        <label for="price">Price :
+            <input type="number" id="price"><br><br>
+        </label>
+        <label for="category">Category :
+            <input type="text" id="category"><br><br>
+        </label>
+        <label for="quantity">Quantity :
+            <input type="number" id="quantity"><br><br>
+        </label><br><br><br><br>
+       <div style="text-align: right;">
+        <button id="addproduct" type="submit">Add product</button><br><br><br>
+        <button id="showproduct" type="button" >Show product</button><br><br><br>
+       </div>
+    </form>
+    <table id="producttable" >
+        <tr>
+            <thead>
+                <tr>
+                     <th>Id</th>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Quantity</th>
+                    <th>Actions</th>
+                </tr>
+           
+
+            </thead>
+        </tr>
+        <tbody id="productbody"></tbody>
+    </table>
+        <form action="" id="formupdate" style="display: none;">
+        <label for="name" >Name : 
+            <input type="text" id="updatename"><br><br>
+        </label>
+        <label for="price">Price :
+            <input type="number" id="updateprice"><br><br>
+        </label>
+        <label for="category">Category :
+            <input type="text" id="updatecategory"><br><br>
+        </label>
+        <label for="quantity">Quantity :
+            <input type="number" id="updatequantity"><br><br>
+        </label>
+        <button type="submit">submit</button>
+    </form>
+    <script src="task.js"></script>
+</body>
+</html>

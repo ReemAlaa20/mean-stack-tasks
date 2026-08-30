@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(238, 187, 240);
+}
+form{
+    width: 90%;
+    margin: 10px;
+    padding: 50px;
+    border: 5px rgb(215, 36, 174) solid;
+    border-radius: 10px;
+}
+button{
+    background-color: rgb(219, 107, 198);
+    border: 5px rgb(215, 36, 174) solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+table{
+    width: 90%;
+    margin: 10px;
+    padding: 50px;
+    display: none;
+    border: 5px rgb(215, 36, 174) solid;
+    border-radius: 10px;
+    border-collapse: collapse;
+}
+th,td,tr{
+    border: 1px rgb(215, 36, 174) solid;
+}
+td{
+    text-align: center;
+}
