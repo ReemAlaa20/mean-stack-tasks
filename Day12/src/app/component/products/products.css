@@ -1,0 +1,30 @@
+.products-page {
+  padding: 50px;
+  text-align: center;
+}
+
+.products-page h1 {
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+
+.products {
+  gap: 25px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+}
+.product-card h2 {
+  color: #333;
+}
+
+.product-card span {
+  display: block;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #4f46e5;
+}
